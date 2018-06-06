@@ -59,8 +59,8 @@ public class Main extends JFrame
     }
     private static boolean Regex(String nameTest, String surnameTest)
     {
-        Pattern pattern1 = Pattern.compile("\\b(?<NAME>^\\D*)\\b", Pattern.UNICODE_CHARACTER_CLASS);
-        Pattern pattern2 = Pattern.compile("\\b(?<SURNAME>^\\D*)\\b", Pattern.UNICODE_CHARACTER_CLASS);
+        Pattern pattern1 = Pattern.compile("\\b(?<NAME>\\D*)\\b", Pattern.UNICODE_CHARACTER_CLASS);
+        Pattern pattern2 = Pattern.compile("\\b(?<SURNAME>\\D*)\\b", Pattern.UNICODE_CHARACTER_CLASS);
         
         boolean matcher1 = pattern1.matcher(nameTest).matches();
         boolean matcher2 = pattern2.matcher(surnameTest).matches();
