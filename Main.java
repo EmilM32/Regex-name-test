@@ -33,8 +33,7 @@ public class Main extends JFrame
             {
                 String nameTest = textName.getText();
                 String surnameTest = textSurname.getText();
-              //  System.out.println(nameTest + " " + surnameTest);
-                Regex(nameTest, surnameTest);
+                
                 if(Regex(nameTest, surnameTest))
                     JOptionPane.showMessageDialog(null, "Imię i nazwisko poprawne", "Dobrze!", JOptionPane.INFORMATION_MESSAGE);
                 else
