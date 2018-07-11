@@ -1,2 +1,2 @@
 # Regex-name-test
-Program sprawdzający za pomocą Regex'a poprawność podanego imienia i nazwiska.
+This <b>Java</b> program using <b>RegEx</b> to check if name and surname are correct. 
